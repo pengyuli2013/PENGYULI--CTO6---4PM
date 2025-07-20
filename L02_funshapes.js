@@ -10,6 +10,7 @@ function draw() {
   ellipse(100,200,100,200)
 
   // Challenge 2: A face using circle() function
+  CSSNumericValue()
 
   // Challenge 3: A house using rect() function
 
