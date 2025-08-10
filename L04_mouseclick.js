@@ -40,13 +40,13 @@ fill(shapeColour);
 circle(mouseX, mouseY, 100);
 }
 
-function mousePressed() {
-shapeColour = 'white';
-}
+// function mousePressed() {
+// shapeColour = 'white';
+// }
 
-function mouseReleased() {
-shapeColour = color(random(255), random(255), random(255));
-}
+// function mouseReleased() {
+// shapeColour = color(random(255), random(255), random(255));
+// }
 
 function mouseMoved(){
     cicle(mouseX,mouseY,30);
