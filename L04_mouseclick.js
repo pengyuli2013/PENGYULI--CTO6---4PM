@@ -14,11 +14,11 @@ function setup()  {
 //     }
     
 // }
-// function draw(){
-//     fill(shapeColour);
-//     circle(width/2,height/2,100);
+function draw(){
+    fill(shapeColour);
+    circle(width/2,height/2,100);
+}
 // }
-// // }
 // function mousePressed(){
 //     shapeColour = 'red';
 // }
@@ -36,14 +36,14 @@ function setup()  {
 
 
 function draw() {
-    fill(shapeColour);
-    circle(mouseX, mouseY, 100);
+fill(shapeColour);
+circle(mouseX, mouseY, 100);
 }
 
 function mousePressed() {
-    shapeColour = 'white';
+shapeColour = 'white';
 }
 
 function mouseReleased() {
-    shapeColour = color(random(255), random(255), random(255));
+shapeColour = color(random(255), random(255), random(255));
 }
