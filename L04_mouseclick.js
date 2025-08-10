@@ -36,14 +36,14 @@ function setup()  {
 
 
 function draw() {
-fill(shapeColour);
-circle(mouseX, mouseY, 100);
+    fill(shapeColour);
+    circle(mouseX, mouseY, 100);
 }
 
 function mousePressed() {
-shapeColour = 'white';
+    shapeColour = 'white';
 }
 
 function mouseReleased() {
-shapeColour = color(random(255), random(255), random(255));
+    shapeColour = color(random(255), random(255), random(255));
 }
