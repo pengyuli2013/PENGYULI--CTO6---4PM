@@ -26,9 +26,9 @@ function draw(){
 //     //shapeColour = 'white';
 // }
 
-function mousePressed(){
-    shapeColour = color(random(255),random(255),random(255));
-}
-function mouseReleased(){
-    shapeColour = 'white';
-}
+// function mousePressed(){
+//     shapeColour = color(random(255),random(255),random(255));
+// }
+// function mouseReleased(){
+//     shapeColour = 'white';
+// }
