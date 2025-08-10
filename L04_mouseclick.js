@@ -7,7 +7,7 @@ function setup()  {
 
 let dis=30;
 let amount=5;
-let diameter=20
+let diameter=20;
 let startX=amount*diameter;
 function draw(){
     
