@@ -53,8 +53,11 @@ function draw() {
 // }
 mx=random(-30,30);
 my=random(-30,30);
-ranSize=(10,30)
+ranSize=(10,30);
 function mouseDragged(){
-    circle(mouseX,mouseY,30);
+    mx=random(-30,30);  
+    my=random(-30,30);
+    ranSize=(10,30);
+    circle(mouseX+mx,mouseY,30);
 }
 
