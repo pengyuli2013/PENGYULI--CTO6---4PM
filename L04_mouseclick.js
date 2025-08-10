@@ -14,10 +14,10 @@ function setup()  {
 //     }
     
 // }
-// function draw(){
-//     fill(shapeColour);
-//     circle(width/2,height/2,100);
-
+function draw(){
+    fill(shapeColour);
+    circle(width/2,height/2,100);
+}
 // }
 // function mousePressed(){
 //     shapeColour = 'red';
