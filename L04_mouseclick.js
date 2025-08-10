@@ -5,12 +5,8 @@ function setup()  {
     background(220);
 }
 
-let dis=30;
-let amount=5;
-let diameter=20;
-let startX=amount*diameter;
 function draw(){
-    for ( let o =0;i<amount;o++){
+    for ( let o =0;i<;o++){
         circle(50+o*50,50+o*50,50);
     }
     
