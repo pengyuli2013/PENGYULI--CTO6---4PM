@@ -1,3 +1,5 @@
 // write your codes here
 
-fun
+function setup()  {
+    
+}
