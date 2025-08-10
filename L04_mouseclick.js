@@ -7,7 +7,7 @@ function setup()  {
 
 let dis=30
 let amount=5
-let startX
+let startX=
 function draw(){
     for (let i = 0;i<5;i++){
         fill(100)
