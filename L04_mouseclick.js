@@ -52,7 +52,7 @@ function draw() {
 //     circle(mouseX,mouseY,30);
 // }
 mx=random(-30,30);
-my=random()
+my=random(-30,30)
 function mouseDragged(){
     circle(mouseX,mouseY,30);
 }
