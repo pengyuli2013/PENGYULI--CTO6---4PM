@@ -58,6 +58,7 @@ function mouseDragged(){
     mx=random(-30,30);  
     my=random(-30,30);
     ranSize=(10,30);
+    fill(rna)
     circle(mouseX+m,mouseY+m,ranSize);
 }
 
