@@ -51,13 +51,13 @@ function draw() {
 // function mouseMoved(){
 //     circle(mouseX,mouseY,30);
 // }
-m=random(-30,30);
+//m=random(-30,30);
 
-ranSize=(10,30);
+//ranSize=(10,30);
 function mouseDragged(){
     mx=random(-30,30);  
     my=random(-30,30);
-    ranSize=(30);
+    //ranSize=(30);
     fill(random(255),random(255),random(255));
     circle(mouseX+mx,mouseY+mx,random(50));
 }
