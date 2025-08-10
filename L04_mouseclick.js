@@ -36,8 +36,8 @@ function setup()  {
 
 
 function draw() {
-fill(shapeColour);
-circle(mouseX, mouseY, 100);
+    fill(shapeColour);
+//circle(mouseX, mouseY, 100);
 }
 
 // function mousePressed() {
@@ -49,5 +49,8 @@ circle(mouseX, mouseY, 100);
 // }
 
 function mouseMoved(){
-    cicle(mouseX,mouseY,30);
+    circle(mouseX,mouseY,30);
+}
+function mouseDragged(){
+    
 }
