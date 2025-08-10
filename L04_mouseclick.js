@@ -10,6 +10,8 @@ let amount=5
 function draw(){
     for (let i = 0;i<5;i++){
         fill(100)
-        for ( let o =0;i<amount;o++)
+        for ( let o =0;i<amount;o++){
+            
+        }
     }
 }
