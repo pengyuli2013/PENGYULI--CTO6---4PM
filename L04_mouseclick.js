@@ -48,9 +48,9 @@ function draw() {
 // shapeColour = color(random(255), random(255), random(255));
 // }
 
-function mouseMoved(){
-    circle(mouseX,mouseY,30);
-}
+// function mouseMoved(){
+//     circle(mouseX,mouseY,30);
+// }
 function mouseDragged(){
     cicle(mouseX,mouseY,30);
 }
