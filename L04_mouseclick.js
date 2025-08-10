@@ -32,3 +32,21 @@ function draw(){
 // function mouseReleased(){
 //     shapeColour = 'white';
 // }
+
+function setup() {
+createCanvas(600, 600);
+background(220);
+}
+
+function draw() {
+fill(shapeColour);
+circle(mouseX, mouseY, 100);
+}
+
+function mousePressed() {
+shapeColour = 'white';
+}
+
+function mouseReleased() {
+shapeColour = color(random(255), random(255), random(255));
+}
