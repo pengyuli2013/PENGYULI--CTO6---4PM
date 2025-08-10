@@ -13,7 +13,7 @@ function draw(){
     
     fill(100);
     for ( let o =0;i<amount;o++){
-        circle(50,50,50);
+        circle(50+o*50,50+o*50,50);
     }
     
 }
