@@ -14,11 +14,11 @@ function setup()  {
 //     }
     
 // }
-function draw(){
-    fill(shapeColour);
-    circle(width/2,height/2,100);
-}
+// function draw(){
+//     fill(shapeColour);
+//     circle(width/2,height/2,100);
 // }
+// // }
 // function mousePressed(){
 //     shapeColour = 'red';
 // }
@@ -46,4 +46,8 @@ shapeColour = 'white';
 
 function mouseReleased() {
 shapeColour = color(random(255), random(255), random(255));
+}
+
+function mouseMoved(){
+    
 }
