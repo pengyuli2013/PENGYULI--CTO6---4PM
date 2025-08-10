@@ -7,13 +7,13 @@ function setup()  {
 
 let dis=30;
 let amount=5;
-let width=20
-let startX=amount*wi;
+let diameter=20
+let startX=amount*diameter;
 function draw(){
-    for (let i = 0;i<5;i++){
-        fill(100);
-        for ( let o =0;i<amount;o++){
-            circle();
-        }
+    
+    fill(100);
+    for ( let o =0;i<amount;o++){
+        circle(50,50,50);
     }
+    
 }
