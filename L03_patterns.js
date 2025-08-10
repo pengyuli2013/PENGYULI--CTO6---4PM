@@ -42,13 +42,23 @@ function draw() {
 //   circle(startX+i*diameter, height/2,diameter);
 
 // }
-// 
+let diameter = 30;
+let numCircles = 5;
+let totalWidth = diameter * numCircles;
 
-// 
+let startX = (width-totalWidth)/2 + diameter/2;
+
+
+for (let n=0; n<5;n++){
+  
+  for(let i =0; i<5;i++){
+    circle(startX+i*diameter, height/numCircles+n*30,diameter);
 
 
 
-
+  }
+  
+}
 
   // Task 1: Colour Gradient
 
