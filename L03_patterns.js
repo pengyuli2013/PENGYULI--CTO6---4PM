@@ -52,7 +52,7 @@ let startX = (width-totalWidth)/2 + diameter/2;
 for (let n=0; n<5;n++){
   
   for(let i =0; i<5;i++){
-    circle(i*diameter+30, height/numCircles+n*30,diameter);
+    circle(i*diameter+15, height/numCircles+n*30,diameter);
 
 
 
