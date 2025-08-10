@@ -6,6 +6,7 @@ function setup()  {
 }
 function draw(){
     for (let i = 0;i<5;i++){
-        FileList()
+        fill(100)
+        c
     }
 }
