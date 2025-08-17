@@ -99,8 +99,8 @@ function draw(){
 // }
 function keyPressed(){
     if(key==="w"||key==="W"){
-        fill(255);
-    }
+    shapeColor='white'    
+}
     if(key==="r"||key==="R"){
         fill(255,0,0);
     }
