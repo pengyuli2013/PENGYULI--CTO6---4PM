@@ -84,5 +84,6 @@ function setup(){
 
 function draw(){
     background(220);
-    circle()
+    circle(width/2,height/2,100);
+    
 }
