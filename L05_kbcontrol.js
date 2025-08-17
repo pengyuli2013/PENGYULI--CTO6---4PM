@@ -102,7 +102,7 @@ function keyPressed(){
     shapeColor='white';    
 }
     if(key==="r"||key==="R"){
-        fill(255,0,0);
+    shapeClor='red'
     }
     if(key==="g"||key==="G"){
         fill(0,255,0);
