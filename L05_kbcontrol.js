@@ -42,6 +42,9 @@
 // function keyReleased(){
 //     background(220);
 // }
+function setup(){
+    
+}
 
 function draw(){
     background(220);
