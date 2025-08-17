@@ -78,5 +78,6 @@ function keyPressed(){
 }
 
 function setup(){
-    createCanvas(400,400)
+    createCanvas(400,400);
+    noStroke();
 }
