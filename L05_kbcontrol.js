@@ -98,10 +98,17 @@ function draw(){
 //     }
 // }
 function keyPressed(){
-    if(keyCode==="w"||keyCode==="W"){
+    if(key==="w"||key==="W"){
         fill(255);
     }
-    if(keyCode==="w"||keyCode==="W"){
-        fill(255);
+    if(key==="r"||key==="R"){
+        fill(255,0,0);
     }
+    if(key==="g"||key==="G"){
+        fill(0,255,0);
+    }else if(key!="g"||"G"||"r"||"R"||"w"||"W"){
+        fill(255,255,0);
+    }
+
 }
+
