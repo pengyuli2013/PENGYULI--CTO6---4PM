@@ -20,26 +20,26 @@
 // }
 
 // 
-function setup(){
-    createCanvas(400,400);
-    background(220);
+// function setup(){
+//     createCanvas(400,400);
+//     background(220);
     
 
-}
-let numCircles=0;
-let ranSize = 0;
-let keytime=1;
-function keyPressed(){
-    numCircles=random(5,20);
+// }
+// let numCircles=0;
+// let ranSize = 0;
+// let keytime=1;
+// function keyPressed(){
+//     numCircles=random(5,20);
     
-    for (let i = 0;i<numCircles;i++){
-        ranSize=random(10,80);
-        fill(random(255),random(255),random(255));
-        ellipse(random(400),random(400),ranSize,ranSize);
+//     for (let i = 0;i<numCircles;i++){
+//         ranSize=random(10,80);
+//         fill(random(255),random(255),random(255));
+//         ellipse(random(400),random(400),ranSize,ranSize);
 
-    }
-}
-function keyReleased(){
-    background(220);
-}
+//     }
+// }
+// function keyReleased(){
+//     background(220);
+// }
 
