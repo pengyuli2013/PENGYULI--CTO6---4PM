@@ -99,6 +99,6 @@ function draw(){
 // }
 function keyPressed(){
     if(keyCode==="w"||keyCode==="W"){
-        fill()
+        fill(255)
     }
 }
