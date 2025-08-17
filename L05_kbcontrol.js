@@ -99,6 +99,9 @@ function draw(){
 // }
 function keyPressed(){
     if(keyCode==="w"||keyCode==="W"){
-        fill(255)
+        fill(255);
+    }
+    if(keyCode==="w"||keyCode==="W"){
+        fill(255);
     }
 }
