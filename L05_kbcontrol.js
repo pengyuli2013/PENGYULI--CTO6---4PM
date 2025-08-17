@@ -42,7 +42,7 @@
 // function keyReleased(){
 //     background(220);
 // }
-let showC
+let showCircle
 function setup(){
     createCanvas(400,400);
     background(220);
