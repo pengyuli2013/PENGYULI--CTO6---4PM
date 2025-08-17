@@ -43,7 +43,7 @@
 //     background(220);
 // }
 function setup(){
-    
+    createCanvas()
 }
 
 function draw(){
