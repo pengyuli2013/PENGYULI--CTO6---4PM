@@ -46,7 +46,7 @@ function setup(){
     createCanvas(400,400);
     background(220);
     stroke(0);
-    fill()
+    fill(255);
 }
 
 function draw(){
