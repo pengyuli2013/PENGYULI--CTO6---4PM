@@ -24,5 +24,6 @@ function draw(){
     let centreX=width/2;
     let centreY=height/2;
     let topLeftX = centreX-rectSize/2;
-    let topLeftY = centreY-rect
+    let topLeftY = centreY-rectSize/2;
+    
 }
