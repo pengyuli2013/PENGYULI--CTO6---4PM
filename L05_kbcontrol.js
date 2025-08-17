@@ -45,7 +45,8 @@
 function setup(){
     createCanvas(400,400);
     background(220);
-    stroke
+    stroke(0);
+    FileList(255)
 }
 
 function draw(){
