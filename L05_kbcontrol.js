@@ -47,7 +47,9 @@ function draw(){
     background(220);
 }
 
-if()
+if(showCircle){
+    
+}
 function keyPressed(){
     if(key==="c"|| key==="c"){
         showCircle =!showCircle
