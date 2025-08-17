@@ -76,7 +76,7 @@
 //     console.log("key code",keyCode);
 
 // }
-let shapeColor = 
+let shapeColor = 'white'
 function setup(){
     createCanvas(400,400);
     noStroke();
