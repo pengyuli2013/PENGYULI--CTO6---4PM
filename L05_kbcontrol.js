@@ -102,10 +102,10 @@ function keyPressed(){
     shapeColor='white';    
 }
     if(key==="r"||key==="R"){
-    shapeClor='red'
+    shapeColor='red'
     }
     if(key==="g"||key==="G"){
-    shapeCol
+    shapeColor=
     }else if(key!="g"||"G"||"r"||"R"||"w"||"W"){
         fill(255,255,0);
     }
