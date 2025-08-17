@@ -34,5 +34,5 @@ function keyReleased(){
 
 }
 function keyPressed(){
-    rectSize = 50;
+    rectSize = 100;
 }
