@@ -28,7 +28,7 @@ function setup(){
 }
 let numCircles=0;
 let ranSize = 0;
-let key
+let keytime=1;
 function keyPressed(){
     numCircles=random(5,20);
     
