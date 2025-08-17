@@ -32,6 +32,7 @@ let keytime=1;
 function keyPressed(){
     numCircles=random(5,20);
     
+    
     for (let i = 0;i<numCircles;i++){
         ranSize=random(10,80);
         fill(random(255),random(255),random(255));
