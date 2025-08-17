@@ -42,24 +42,24 @@
 // function keyReleased(){
 //     background(220);
 // }
-let showCircle = false;
-function setup(){
-    createCanvas(400,400);
-    background(220);
-    stroke(0);
-    fill(255);
-}
+// let showCircle = false;
+// function setup(){
+//     createCanvas(400,400);
+//     background(220);
+//     stroke(0);
+//     fill(255);
+// }
 
-function draw(){
-    background(220);
-    if(showCircle){
-        circle(width/2,height/2,100);
-}
-}
+// function draw(){
+//     background(220);
+//     if(showCircle){
+//         circle(width/2,height/2,100);
+// }
+// }
 
 
-function keyPressed(){
-    if(key==="c"|| key==="C"){
-        showCircle = !showCircle
-    }
-}
+// function keyPressed(){
+//     if(key==="c"|| key==="C"){
+//         showCircle = !showCircle
+//     }
+// }
