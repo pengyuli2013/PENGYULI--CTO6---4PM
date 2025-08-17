@@ -78,5 +78,5 @@ function keyPressed(){
 }
 
 function setup(){
-    
+    createCanvas(400,400)
 }
