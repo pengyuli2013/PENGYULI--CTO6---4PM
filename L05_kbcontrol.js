@@ -1,5 +1,5 @@
 // write your codes here
-circleSize
+let cicleSize =5;
 function setup(){
     createCanvas(400,400);
     background(220);
