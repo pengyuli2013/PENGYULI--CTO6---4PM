@@ -19,20 +19,7 @@ function setup(){
 //     circleSize +=0.5;
 // }
 
+// 
 function draw(){
-    background(220);
-    let centreX=width/2;
-    let centreY=height/2;
-    let topLeftX = centreX-rectSize/2;
-    let topLeftY = centreY-rectSize/2;
-    rect(topLeftX,topLeftY,rectSize,rectSize);
-
-
-}
-function keyReleased(){
-    rectSize=50;
-
-}
-function keyPressed(){
-    rectSize = 100;
+    
 }
