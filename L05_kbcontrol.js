@@ -30,5 +30,5 @@ function draw(){
 
 }
 function keyPressed(){
-    
+    rect()
 }
