@@ -1,7 +1,7 @@
 // write your codes here
 let shapeColor='blue';
 let cicleSize =5;
-let rect
+let rectSize=50;
 function setup(){
     createCanvas(400,400);
     background(220);
