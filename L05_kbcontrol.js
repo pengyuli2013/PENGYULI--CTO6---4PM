@@ -8,5 +8,5 @@ function setup(){
 }
 
 function mousePressed(){
-    shape
+    shapeColor=color()
 }
