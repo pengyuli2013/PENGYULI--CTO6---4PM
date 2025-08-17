@@ -25,7 +25,7 @@ function draw(){
     let centreY=height/2;
     let topLeftX = centreX-rectSize/2;
     let topLeftY = centreY-rectSize/2;
-    rectSize(topLeftX,topLeftY,rectSize,rectSize);
+    rect(topLeftX,topLeftY,rectSize,rectSize);
 
 
 }
