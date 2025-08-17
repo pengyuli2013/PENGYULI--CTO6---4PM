@@ -30,8 +30,9 @@ let numCircles=0;
 let ranSize = 0;
 function keyPressed(){
     numCircles=random(5,20);
-    ranSize=random(10,80);
+    
     for (let i = 0;i<numCircles;i++){
+        ranSize=random(10,80);
         fill(random(255),random(255),random(255));
         ellipse(random(400),random(400),ranSize,ranSize);
 
