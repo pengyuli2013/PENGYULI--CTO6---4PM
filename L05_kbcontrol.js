@@ -76,3 +76,7 @@ function keyPressed(){
     console.log("key code",keyCode);
 
 }
+
+function setup(){
+    
+}
