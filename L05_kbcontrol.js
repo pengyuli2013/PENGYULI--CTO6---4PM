@@ -52,6 +52,6 @@ if(showCircle){
 }
 function keyPressed(){
     if(key==="c"|| key==="c"){
-        showCircle =!showCircle
+        showCircle = !showCircle
     }
 }
