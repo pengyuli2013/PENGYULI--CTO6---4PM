@@ -66,6 +66,6 @@
 function draw(){
     background(220);
     if(showCircle){
-        circle
+        circle(width/2,height/2,200)
     }
 }
