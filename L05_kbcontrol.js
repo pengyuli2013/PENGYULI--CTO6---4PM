@@ -98,5 +98,7 @@ function draw(){
 //     }
 // }
 function keyPressed(){
-    if(keyCode==="w"||keyCode==="W"){}
+    if(keyCode==="w"||keyCode==="W"){
+        fill
+    }
 }
