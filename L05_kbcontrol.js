@@ -94,6 +94,6 @@ function keyPressed(){
         shapeColor='red';
     
     }else if (keyCode===DOWN_ARROW){
-        shapeColor =
+        shapeColor = 'black';
     }
 }
