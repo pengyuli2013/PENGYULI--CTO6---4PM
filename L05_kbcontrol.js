@@ -89,11 +89,11 @@ function draw(){
 
 }
 
-function keyPressed(){
-    if(keyCode===UP_ARROW){
-        shapeColor='red';
+// function keyPressed(){
+//     if(keyCode===UP_ARROW){
+//         shapeColor='red';
     
-    }else if (keyCode===DOWN_ARROW){
-        shapeColor = 'black';
-    }
-}
+//     }else if (keyCode===DOWN_ARROW){
+//         shapeColor = 'black';
+//     }
+// }
