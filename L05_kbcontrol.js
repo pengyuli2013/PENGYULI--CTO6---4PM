@@ -47,7 +47,7 @@ function draw(){
     background(220);
 }
 function keyPressed(){
-    if(key=="c"|| key==="c"){
-        show 
+    if(key==="c"|| key==="c"){
+        show
     }
 }
