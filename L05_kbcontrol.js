@@ -73,5 +73,5 @@ function draw(){
 
 function keyPressed(){
     console.log("key",key);
-    co
+    console.log(key)
 }
