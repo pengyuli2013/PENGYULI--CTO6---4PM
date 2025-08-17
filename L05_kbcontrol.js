@@ -2,11 +2,11 @@
 // let shapeColor='blue';
 // let cicleSize =5;
 // let rectSize=50;
-function setup(){
-    createCanvas(400,400);
-    background(220);
-    noStroke();
-}
+// function setup(){
+//     createCanvas(400,400);
+//     background(220);
+//     noStroke();
+// }
 
 // function mousePressed(){
 //     shapeColor=color(random(255),random(255),random(255));
@@ -63,19 +63,19 @@ function setup(){
 //         showCircle = !showCircle
 //     }
 // }
-function draw(){
-    background(220);
-    if(showCircle){
-        circle(width/2,height/2,200);
+// function draw(){
+//     background(220);
+//     if(showCircle){
+//         circle(width/2,height/2,200);
 
-    }
-}
+//     }
+// }
 
-function keyPressed(){
-    console.log("key",key);
-    console.log("key code",keyCode);
+// function keyPressed(){
+//     console.log("key",key);
+//     console.log("key code",keyCode);
 
-}
+// }
 
 function setup(){
     createCanvas(400,400);
