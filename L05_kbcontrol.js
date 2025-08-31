@@ -127,7 +127,7 @@ function draw(){
 
 function mousePressed (){
     if (key == UP_ARROW){
-        triangle(200,2)
+        triangle(200,300,250)
 
     }
 }
