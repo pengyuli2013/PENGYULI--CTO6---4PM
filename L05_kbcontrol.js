@@ -124,9 +124,11 @@ function draw(){
 
 
 //}
+
 function mousePressed (){
     if (key == UP_ARROW){
         
+
     }
 }
 
