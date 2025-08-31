@@ -97,18 +97,33 @@ function draw(){
 //         shapeColor = 'black';
 //     }
 // }
-function keyPressed(){
-    if(key==="w"||key==="W"){
-    shapeColor='white';    
-}
-    if(key==="r"||key==="R"){
-    shapeColor='red'
-    }
-    if(key==="g"||key==="G"){
-    shapeColor='blue'
-    }else if(key!="g"||"G"||"r"||"R"||"w"||"W"){
-    shapeColor='yellow'
+// function keyPressed(){
+//     if(key==="w"||key==="W"){
+//     shapeColor='white';    
+// }
+//     if(key==="r"||key==="R"){
+//     shapeColor='red'
+//     }
+//     if(key==="g"||key==="G"){
+//     shapeColor='blue'
+//     }else if(key!="g"||"G"||"r"||"R"||"w"||"W"){
+//     shapeColor='yellow'
+//     }
+
+function mouseDragged (){
+    if (mouseX<=133){
+        shapeColor = 'red';
+        
+
+    }else if(mouseX<=266){
+        shapeColor= 'green';
+
+    }else(mouseX >= 270){
+        shapeColor='blue';
     }
 
+
 }
+
+
 
