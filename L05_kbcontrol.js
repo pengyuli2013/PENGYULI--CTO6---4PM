@@ -110,20 +110,20 @@ function draw(){
 //     shapeColor='yellow'
 //     }
 
-function mouseDragged (){
-    if (mouseX<=133){
-        shapeColor = 'red';
+// function mouseDragged (){
+//     if (mouseX<=133){
+//         shapeColor = 'red';
         
 
-    }else if(mouseX<=266){
-        shapeColor= 'green';
+//     }else if(mouseX<=266){
+//         shapeColor= 'green';
 
-    }else(mouseX >= 270){
-        shapeColor='blue';
-    }
+//     }else(mouseX >= 270){
+//         shapeColor='blue';
+//     }
 
 
-}
+//}
 
 
 
