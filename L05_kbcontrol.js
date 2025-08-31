@@ -82,12 +82,12 @@ function setup(){
     noStroke();
 }
 
-function draw(){
-    background(220);
-    fill(shapeColor);
-    circle(width/2,height/2,100);
+// function draw(){
+//     background(220);
+//     fill(shapeColor);
+//     circle(width/2,height/2,100);
 
-}
+// }
 
 // function keyPressed(){
 //     if(keyCode===UP_ARROW){
@@ -128,7 +128,7 @@ function draw(){
 function mousePressed (){
     if (key == UP_ARROW){
         triangle(200,300,250,250,150,250);
-        
+
 
     }
 }
